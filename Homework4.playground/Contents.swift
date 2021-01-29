@@ -68,9 +68,9 @@ isEvenNumber(number: 45)
  print(array)
  */
 
-func createArray (from: Int, to: Int) -> [Int] {
+func createArray (from start: Int, to end: Int) -> [Int] {
     var returnNum: [Int] = []
-    for number in from...to {
+    for number in start...end {
         returnNum.append(number)
     }
     return returnNum
