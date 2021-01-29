@@ -69,11 +69,15 @@ print("Number 5 will be after \(counter) shuffles")
 
 var distance = 0
 var numberOfDays = 0
+let pole = 10
 
 while distance < 9 {
     distance += 2
     distance -= 1
     numberOfDays += 1
+    if distance == pole{
+        break
+    }
     
 }
 print("\nbug will spend \(numberOfDays) days to reach top of the post")
